@@ -1,4 +1,4 @@
-# @sunasty/code128-svg
+# barcode128-svg
 
 Zero-dependency 1D barcode encoder and standalone SVG generator supporting **Code 128** (automatic Subset B + dense numeric Subset C), **EAN-13**, **UPC-A**, **Code 39**, and **ITF-14** (with GS1 bearer frame).
 
@@ -15,7 +15,7 @@ Extracted from the core engine powering [Sunasty Barcode Generator](https://suna
 ## Installation
 
 ```bash
-npm install @sunasty/code128-svg
+npm install barcode128-svg
 # or via JSR
 npx jsr add @sunasty/code128-svg
 ```
@@ -23,7 +23,7 @@ npx jsr add @sunasty/code128-svg
 ## Usage
 
 ```js
-import { renderBarcodeSvg, parseEan13Input } from '@sunasty/code128-svg';
+import { renderBarcodeSvg, parseEan13Input } from 'barcode128-svg';
 
 const svg = renderBarcodeSvg('code128', 'ORD-2026-0042', {
   moduleWidth: 2,
