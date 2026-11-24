@@ -1,0 +1,26 @@
+{
+  "title": "sunasty-code128-svg: Zero-dependency 1D Barcode Encoder and SVG Generator",
+  "description": "Zero-dependency JavaScript/TypeScript library encoding Code 128 (Subset B/C), EAN-13, UPC-A, Code 39, and ITF-14 into crisp standalone SVG markup.",
+  "creators": [
+    {
+      "name": "Sulyan, Bastien",
+      "affiliation": "Sunasty"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": ["barcode", "code128", "ean13", "upca", "code39", "itf14", "svg"],
+  "related_identifiers": [
+    {
+      "identifier": "https://sunasty.com/barcode-generator/",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/bsulyan/sunasty-code128-svg",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    }
+  ],
+  "upload_type": "software"
+}

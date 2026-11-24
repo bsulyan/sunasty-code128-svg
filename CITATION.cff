@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Sulyan"
+    given-names: "Bastien"
+    affiliation: "Sunasty"
+title: "sunasty-code128-svg"
+version: 1.0.0
+date-released: 2026-11-24
+url: "https://sunasty.com/barcode-generator/"
+repository-code: "https://github.com/bsulyan/sunasty-code128-svg"
+license: MIT
+keywords:
+  - "barcode"
+  - "code128"
+  - "ean13"
+  - "svg"

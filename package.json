@@ -1,0 +1,47 @@
+{
+  "name": "sunasty-code128-svg",
+  "version": "1.0.0",
+  "description": "Zero-dependency 1D barcode encoder and standalone SVG generator supporting Code 128 (Subset B/C), EAN-13, UPC-A, Code 39, and ITF-14 with GS1 Mod-10/Mod-103 check digits and bulk CSV parsing.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test.js"
+  },
+  "keywords": [
+    "barcode",
+    "code128",
+    "ean13",
+    "upca",
+    "code39",
+    "itf14",
+    "svg",
+    "gtin",
+    "gs1"
+  ],
+  "author": "Sunasty <https://sunasty.com>",
+  "license": "MIT",
+  "homepage": "https://sunasty.com/barcode-generator/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsulyan/sunasty-code128-svg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bsulyan/sunasty-code128-svg/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
