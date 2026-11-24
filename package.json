@@ -1,5 +1,5 @@
 {
-  "name": "sunasty-code128-svg",
+  "name": "@sunasty/code128-svg",
   "version": "1.0.0",
   "description": "Zero-dependency 1D barcode encoder and standalone SVG generator supporting Code 128 (Subset B/C), EAN-13, UPC-A, Code 39, and ITF-14 with GS1 Mod-10/Mod-103 check digits and bulk CSV parsing.",
   "type": "module",
